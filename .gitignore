@@ -1,0 +1,15 @@
+# 環境設定（含 API token，絕對不 commit）
+scripts/.env
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 輸出資料（大型 JSON/CSV 不進 repo）
+candidate-drafts/targets_*.json
+candidate-drafts/targets_*.csv
+candidate-drafts/analyzed_*.json
+candidate-drafts/analyzed_*.csv
+scripts/output/
